@@ -1,4 +1,4 @@
-package co.safepet.clinica;
+package co.safepet.veterinaria;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
