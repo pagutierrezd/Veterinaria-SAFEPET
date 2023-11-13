@@ -1,9 +1,7 @@
 package co.safepet.veterinaria.modelo.entidades;
 
 import co.safepet.veterinaria.modelo.enums.Especialidad;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
@@ -18,6 +16,7 @@ import java.util.List;
 public class Veterinario extends Usuario implements Serializable {
 
     @Column(name = "especialidad", nullable = false)
+    @Enumerated(EnumType.STRING)
     private Especialidad especialidad;
 
     @Column(name = "direccion", nullable = false, length = 100)

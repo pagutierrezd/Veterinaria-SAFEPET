@@ -28,7 +28,7 @@ public class ClienteController {
 
 
     @GetMapping("/{cedula}")
-    public ResponseEntity<Cliente> buscarCliente(@PathVariable String cedula) throws Exception {
+    public ResponseEntity<DetalleClienteDTO> buscarCliente(@PathVariable String cedula) throws Exception {
         return ResponseEntity.ok(clienteService.buscarCliente(cedula));
     }
 

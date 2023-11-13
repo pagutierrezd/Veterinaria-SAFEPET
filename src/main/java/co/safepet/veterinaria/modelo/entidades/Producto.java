@@ -36,5 +36,6 @@ public class Producto implements Serializable {
     @Column(name = "urlFoto", nullable = false, length = 100)
     private String urlFoto;
 
+    @Enumerated(EnumType.STRING)
     private TipoProducto tipoProducto;
 }

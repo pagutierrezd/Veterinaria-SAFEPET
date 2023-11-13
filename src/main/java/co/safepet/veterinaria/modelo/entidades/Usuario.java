@@ -1,9 +1,7 @@
 package co.safepet.veterinaria.modelo.entidades;
 
 import co.safepet.veterinaria.modelo.enums.EstadoPerfil;
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
-import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
@@ -34,5 +32,6 @@ public class Usuario implements Serializable {
     private String correo;
 
     @Column(name = "estado", nullable = false)
+    @Enumerated(EnumType.STRING)
     private EstadoPerfil estado;
 }

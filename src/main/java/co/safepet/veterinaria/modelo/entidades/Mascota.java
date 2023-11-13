@@ -21,7 +21,7 @@ public class Mascota implements Serializable {
     @EqualsAndHashCode.Include
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "codigo", nullable = false)
-    private int codigo;
+    private Integer codigo;
 
     @Column(name = "nombre", nullable = false, length = 50)
     private String nombre;
@@ -29,19 +29,22 @@ public class Mascota implements Serializable {
     @Column(name = "fechaNacimiento", nullable = false)
     private LocalDate fechaNacimiento;
 
-    @Column(name = "observación", nullable = false, length = 250)
+    @Column(name = "observación",  length = 250)
     private String observacion;
 
     @Column(name = "edad", nullable = false, length = 10)
     private String edad;
 
     @Column(name = "sexo", nullable = false)
+    @Enumerated(EnumType.STRING)
     private Sexo sexo;
 
     @Column(name = "especie", nullable = false)
+    @Enumerated(EnumType.STRING)
     private Especie especie;
 
     @Column(name = "raza", nullable = false)
+    @Enumerated(EnumType.STRING)
     private Raza raza;
 
     @ManyToOne
