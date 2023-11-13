@@ -29,6 +29,7 @@ public class Cita implements Serializable {
     @Column(name = "observación", nullable = false, length = 100)
     private String observacion;
 
+    @Enumerated(EnumType.STRING)
     private EstadoCita estadoCita;
 
     @ManyToOne

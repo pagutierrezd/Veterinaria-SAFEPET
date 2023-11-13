@@ -15,6 +15,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -44,22 +45,25 @@ public class ClienteServiceImpl implements ClienteService {
             throw new ExcepcionCliente("El cliente no existe");
 
         Cliente cliente = actualizacionClienteMapper.toCliente(detalleClienteDTO);
-        cliente.setNombre(buscarCliente(detalleClienteDTO.cedula()).getNombre());
+        Cliente clienteBuscado= clienteRepo.findById(detalleClienteDTO.cedula()).get();
+        cliente.setNombre(clienteBuscado.getNombre());
+        cliente.setEstado(clienteBuscado.getEstado());
+        cliente.setPassword(clienteBuscado.getPassword());
         clienteRepo.save(cliente);
         return true;
     }
 
     @Override
     public List<InformacionDetalladaClienteDTO> listarClientes() {
-        return informacionDetalladaClienteMapper.toInformacionDetalladaClienteMappers(clienteRepo.findAll());
+        return informacionDetalladaClienteMapper.toInformacionDetalladaClienteMappers(clienteRepo.findAllByEstado(EstadoPerfil.ACTIVO));
     }
 
     @Override
-    public Cliente buscarCliente(String cedula) throws Exception {
+    public DetalleClienteDTO buscarCliente(String cedula) throws Exception {
         if(!validarExistenciaCedula(cedula))
             throw new ExcepcionCliente("El cliente buscado existe");
 
-         return clienteRepo.findById(cedula).get();
+         return actualizacionClienteMapper.toDetalleClienteDto(clienteRepo.findByCedulaAndEstado(cedula,EstadoPerfil.ACTIVO));
     }
 
     @Override
@@ -67,7 +71,7 @@ public class ClienteServiceImpl implements ClienteService {
         if(!validarExistenciaCedula(cedula))
             throw new ExcepcionCliente("El cliente a eliminar existe");
 
-        Cliente cliente = buscarCliente(cedula);
+        Cliente cliente = clienteRepo.findById(cedula).get();
         cliente.setEstado(EstadoPerfil.INACTIVO);
         clienteRepo.save(cliente);
         return true;

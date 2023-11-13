@@ -12,7 +12,7 @@ public interface ClienteService {
     Boolean registrarCliente(RegistroClienteDTO registroClienteDTO) throws Exception ;
     Boolean actualizarCliente(DetalleClienteDTO detalleClienteDTO) throws Exception ;
     List<InformacionDetalladaClienteDTO> listarClientes();
-    Cliente buscarCliente(String cedula) throws Exception ;
+    DetalleClienteDTO buscarCliente(String cedula) throws Exception ;
     Boolean eliminarCliente(String cedula) throws Exception ;
 
 
