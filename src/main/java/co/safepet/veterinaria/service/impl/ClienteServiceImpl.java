@@ -3,7 +3,7 @@ package co.safepet.veterinaria.service.impl;
 import co.safepet.veterinaria.dto.DetalleClienteDTO;
 import co.safepet.veterinaria.dto.InformacionDetalladaClienteDTO;
 import co.safepet.veterinaria.dto.RegistroClienteDTO;
-import co.safepet.veterinaria.excepciones.ExcepcionCliente;
+import co.safepet.veterinaria.excepciones.ExcepcionPersonalizada;
 import co.safepet.veterinaria.mapper.ActualizacionClienteMapper;
 import co.safepet.veterinaria.mapper.InformacionDetalladaClienteMapper;
 import co.safepet.veterinaria.mapper.RegistroClienteMapper;
@@ -15,7 +15,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -30,7 +29,7 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     public Boolean registrarCliente(RegistroClienteDTO registroClienteDTO) throws Exception {
         if(validarExistenciaCedula(registroClienteDTO.cedula())){
-            throw new ExcepcionCliente("El cliente ya existe");
+            throw new ExcepcionPersonalizada("El cliente ya existe");
         }
         Cliente cliente = registroClienteMapper.toCliente(registroClienteDTO);
         cliente.setEstado(EstadoPerfil.ACTIVO);
@@ -42,7 +41,7 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     public Boolean actualizarCliente(DetalleClienteDTO detalleClienteDTO) throws Exception {
         if(!validarExistenciaCedula(detalleClienteDTO.cedula()))
-            throw new ExcepcionCliente("El cliente no existe");
+            throw new ExcepcionPersonalizada("El cliente no existe");
 
         Cliente cliente = actualizacionClienteMapper.toCliente(detalleClienteDTO);
         Cliente clienteBuscado= clienteRepo.findById(detalleClienteDTO.cedula()).get();
@@ -61,7 +60,7 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     public DetalleClienteDTO buscarCliente(String cedula) throws Exception {
         if(!validarExistenciaCedula(cedula))
-            throw new ExcepcionCliente("El cliente buscado existe");
+            throw new ExcepcionPersonalizada("El cliente buscado no existe");
 
          return actualizacionClienteMapper.toDetalleClienteDto(clienteRepo.findByCedulaAndEstado(cedula,EstadoPerfil.ACTIVO));
     }
@@ -69,7 +68,7 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     public Boolean eliminarCliente(String cedula) throws Exception {
         if(!validarExistenciaCedula(cedula))
-            throw new ExcepcionCliente("El cliente a eliminar existe");
+            throw new ExcepcionPersonalizada("El cliente a eliminar no existe");
 
         Cliente cliente = clienteRepo.findById(cedula).get();
         cliente.setEstado(EstadoPerfil.INACTIVO);
