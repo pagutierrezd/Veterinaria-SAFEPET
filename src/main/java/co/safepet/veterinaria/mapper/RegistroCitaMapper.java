@@ -24,12 +24,12 @@ public interface RegistroCitaMapper {
            @Mapping(target = "observacion", source = "observacion"),
            @Mapping(target = "codigo", source = "codigo"),
            @Mapping(target = "estadoCita", source = "estadoCita"),
+           @Mapping(target = "identificacionVeterinario", source = "veterinario.cedula"),
    })
    RegistroCitaDTO toRegistroCitaMapper(Cita cita);
 
     @InheritInverseConfiguration
     @Mappings({
-            @Mapping(target = "veterinario", ignore = true),
             @Mapping(target = "atencion", ignore = true),
 
     })

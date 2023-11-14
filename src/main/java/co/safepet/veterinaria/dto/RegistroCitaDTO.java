@@ -21,6 +21,8 @@ public record RegistroCitaDTO(
         @NotNull
         String identificacionCliente,
         @NotNull
+        String identificacionVeterinario,
+        @NotNull
         String observacion
 
 
