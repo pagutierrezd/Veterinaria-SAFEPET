@@ -16,7 +16,7 @@ public class Atencion implements Serializable {
     @Id
     @EqualsAndHashCode.Include
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int codigo;
+    private Integer codigo;
 
     @Column(name = "diagnostico", nullable = false, length = 200)
     private String diagnostico;
