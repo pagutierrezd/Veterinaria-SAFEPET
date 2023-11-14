@@ -1,5 +1,6 @@
 package co.safepet.veterinaria.modelo.entidades;
 
+import co.safepet.veterinaria.modelo.enums.Especialidad;
 import co.safepet.veterinaria.modelo.enums.EstadoCita;
 import jakarta.persistence.*;
 import lombok.*;
@@ -18,7 +19,7 @@ public class Cita implements Serializable {
     @Id
     @EqualsAndHashCode.Include
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int codigo;
+    private Integer codigo;
 
     @Column(name = "fechaCreacion", nullable = false)
     private LocalDateTime fechaCreacion;
@@ -32,6 +33,10 @@ public class Cita implements Serializable {
     @Enumerated(EnumType.STRING)
     private EstadoCita estadoCita;
 
+    @Column(name = "especialidad", nullable = false)
+    @Enumerated(EnumType.STRING)
+    private Especialidad especialidad;
+
     @ManyToOne
     private Cliente cliente;
 
@@ -40,4 +45,6 @@ public class Cita implements Serializable {
 
     @OneToOne(mappedBy = "cita")
     private Atencion atencion;
+
+
 }
