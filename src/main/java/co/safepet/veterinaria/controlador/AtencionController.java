@@ -17,6 +17,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/atencion")
 @Validated
+@CrossOrigin(origins = "http://localhost:4200")
 public class AtencionController {
 
     private final AtencionService atencionService;

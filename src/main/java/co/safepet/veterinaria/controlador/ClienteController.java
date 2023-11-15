@@ -2,9 +2,11 @@ package co.safepet.veterinaria.controlador;
 
 import co.safepet.veterinaria.dto.DetalleClienteDTO;
 import co.safepet.veterinaria.dto.InformacionDetalladaClienteDTO;
+import co.safepet.veterinaria.dto.LoginDto;
 import co.safepet.veterinaria.dto.RegistroClienteDTO;
 import co.safepet.veterinaria.modelo.entidades.Cliente;
 import co.safepet.veterinaria.service.interfaz.ClienteService;
+import co.safepet.veterinaria.service.interfaz.SessionService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -17,9 +19,12 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/clientes")
 @Validated
+@CrossOrigin(origins = "http://localhost:4200")
+
 public class ClienteController {
 
     private final ClienteService clienteService;
+    private final SessionService sessionService;
 
     @GetMapping()
     public ResponseEntity<List<InformacionDetalladaClienteDTO>> findAll() {
@@ -45,5 +50,10 @@ public class ClienteController {
     @DeleteMapping("/{cedula}")
     public ResponseEntity<Boolean> eliminarCliente(@PathVariable String cedula) throws Exception {
         return ResponseEntity.ok(clienteService.eliminarCliente(cedula));
+    }
+
+    @PostMapping("/auth")
+    public ResponseEntity<DetalleClienteDTO>login(@Validated @RequestBody LoginDto loginDto)throws Exception{
+        return ResponseEntity.ok(sessionService.login(loginDto));
     }
 }

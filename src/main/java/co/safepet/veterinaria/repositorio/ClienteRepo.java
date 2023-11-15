@@ -12,4 +12,6 @@ public interface ClienteRepo extends JpaRepository<Cliente, String> {
 
     List<Cliente> findAllByEstado(EstadoPerfil estadoPerfil);
     Cliente findByCedulaAndEstado(String cedula, EstadoPerfil estadoPerfil);
+
+    Cliente findClienteByCorreoAndPassword(String correo, String password);
 }

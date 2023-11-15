@@ -7,6 +7,7 @@ co\safepet\veterinaria\mapper\InformacionDetalladaClienteMapperImpl.class
 co\safepet\veterinaria\mapper\RegistroCitaMapperImpl.class
 co\safepet\veterinaria\modelo\entidades\Conversacion.class
 co\safepet\veterinaria\service\impl\VeterinarioServiceImpl.class
+co\safepet\veterinaria\dto\LoginDto.class
 co\safepet\veterinaria\dto\RegistroAtencionDTO.class
 co\safepet\veterinaria\mapper\RegistroMascotaMapper.class
 co\safepet\veterinaria\modelo\entidades\Administrador.class
@@ -25,6 +26,7 @@ co\safepet\veterinaria\repositorio\MascotaRepo.class
 co\safepet\veterinaria\service\impl\MascotaServiceImpl.class
 co\safepet\veterinaria\modelo\entidades\Mascota.class
 co\safepet\veterinaria\controlador\CitaController.class
+co\safepet\veterinaria\service\impl\SessionServiceImpl.class
 co\safepet\veterinaria\mapper\RegistroAtencionMapperImpl.class
 co\safepet\veterinaria\mapper\RegistroCitaMapper.class
 co\safepet\veterinaria\modelo\entidades\Veterinario.class
@@ -48,6 +50,7 @@ co\safepet\veterinaria\modelo\enums\TipoProducto.class
 co\safepet\veterinaria\mapper\RegistroMascotaMapperImpl.class
 co\safepet\veterinaria\service\interfaz\MascotaService.class
 co\safepet\veterinaria\service\interfaz\ClienteService.class
+co\safepet\veterinaria\service\interfaz\SessionService.class
 co\safepet\veterinaria\modelo\enums\Raza.class
 co\safepet\veterinaria\service\impl\CitaServiceImpl.class
 co\safepet\veterinaria\mapper\RegistroClienteMapper.class

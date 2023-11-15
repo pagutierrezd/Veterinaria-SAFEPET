@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: co.safepet.veterinaria.ClinicaVeterinariaApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.45 s - in co.safepet.veterinaria.ClinicaVeterinariaApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.714 s - in co.safepet.veterinaria.ClinicaVeterinariaApplicationTests

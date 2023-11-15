@@ -18,6 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/citas")
 @Validated
+@CrossOrigin(origins = "http://localhost:4200")
 public class CitaController {
 
     private final CitaService citaService;

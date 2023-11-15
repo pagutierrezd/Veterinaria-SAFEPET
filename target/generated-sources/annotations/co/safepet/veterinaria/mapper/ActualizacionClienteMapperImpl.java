@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-11-14T01:45:26-0500",
-    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.6 (Oracle Corporation)"
+    date = "2023-11-14T19:23:06-0500",
+    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.7 (Oracle Corporation)"
 )
 @Component
 public class ActualizacionClienteMapperImpl implements ActualizacionClienteMapper {
@@ -23,13 +23,15 @@ public class ActualizacionClienteMapperImpl implements ActualizacionClienteMappe
         String telefono = null;
         String correo = null;
         String direccion = null;
+        String nombre = null;
 
         cedula = cliente.getCedula();
         telefono = cliente.getTelefono();
         correo = cliente.getCorreo();
         direccion = cliente.getDireccion();
+        nombre = cliente.getNombre();
 
-        DetalleClienteDTO detalleClienteDTO = new DetalleClienteDTO( cedula, telefono, correo, direccion );
+        DetalleClienteDTO detalleClienteDTO = new DetalleClienteDTO( cedula, nombre, telefono, correo, direccion );
 
         return detalleClienteDTO;
     }

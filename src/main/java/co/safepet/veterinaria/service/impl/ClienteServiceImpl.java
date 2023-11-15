@@ -48,6 +48,7 @@ public class ClienteServiceImpl implements ClienteService {
         cliente.setNombre(clienteBuscado.getNombre());
         cliente.setEstado(clienteBuscado.getEstado());
         cliente.setPassword(clienteBuscado.getPassword());
+        cliente.setNombre(clienteBuscado.getNombre());
         clienteRepo.save(cliente);
         return true;
     }
