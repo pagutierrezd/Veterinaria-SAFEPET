@@ -16,6 +16,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/mascotas")
 @Validated
+@CrossOrigin(origins = "http://localhost:4200")
 public class MascotaController {
 
     private final MascotaService mascotaService;

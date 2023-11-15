@@ -9,7 +9,9 @@ public record InformacionDetalladaClienteDTO (
         @NotNull
         String nombre,
         @NotNull
-        String telefono
+        String telefono,
+        @NotNull
+        String direccion
 
 ) {
 }

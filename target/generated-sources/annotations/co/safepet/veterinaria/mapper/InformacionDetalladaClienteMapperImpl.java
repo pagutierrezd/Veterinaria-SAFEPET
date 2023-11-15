@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-11-14T01:45:26-0500",
-    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.6 (Oracle Corporation)"
+    date = "2023-11-14T19:23:06-0500",
+    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.7 (Oracle Corporation)"
 )
 @Component
 public class InformacionDetalladaClienteMapperImpl implements InformacionDetalladaClienteMapper {
@@ -51,12 +51,14 @@ public class InformacionDetalladaClienteMapperImpl implements InformacionDetalla
         String cedula = null;
         String nombre = null;
         String telefono = null;
+        String direccion = null;
 
         cedula = cliente.getCedula();
         nombre = cliente.getNombre();
         telefono = cliente.getTelefono();
+        direccion = cliente.getDireccion();
 
-        InformacionDetalladaClienteDTO informacionDetalladaClienteDTO = new InformacionDetalladaClienteDTO( cedula, nombre, telefono );
+        InformacionDetalladaClienteDTO informacionDetalladaClienteDTO = new InformacionDetalladaClienteDTO( cedula, nombre, telefono, direccion );
 
         return informacionDetalladaClienteDTO;
     }
@@ -71,6 +73,7 @@ public class InformacionDetalladaClienteMapperImpl implements InformacionDetalla
         cliente.setCedula( informacionDetalladaClienteDTO.cedula() );
         cliente.setNombre( informacionDetalladaClienteDTO.nombre() );
         cliente.setTelefono( informacionDetalladaClienteDTO.telefono() );
+        cliente.setDireccion( informacionDetalladaClienteDTO.direccion() );
 
         return cliente;
     }

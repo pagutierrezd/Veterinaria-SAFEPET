@@ -15,7 +15,8 @@ public interface InformacionDetalladaClienteMapper {
     @Mappings({
             @Mapping(target = "cedula", source = "cedula"),
             @Mapping(target = "nombre", source = "nombre"),
-            @Mapping(target = "telefono", source = "telefono")
+            @Mapping(target = "telefono", source = "telefono"),
+            @Mapping(target = "direccion",source = "direccion")
     })
     List<InformacionDetalladaClienteDTO> toInformacionDetalladaClienteMappers(List<Cliente> clientes);
 
@@ -23,9 +24,7 @@ public interface InformacionDetalladaClienteMapper {
     @Mappings({
 
             @Mapping(target = "citas", ignore = true),
-            @Mapping(target = "mascotas", ignore = true),
-            @Mapping(target = "nombre", ignore = true),
-            @Mapping(target = "direccion", ignore = true)
+            @Mapping(target = "mascotas", ignore = true)
 
     })
     List<Cliente> toClientes(List<InformacionDetalladaClienteDTO> informacionDetalladaClienteDTOS);

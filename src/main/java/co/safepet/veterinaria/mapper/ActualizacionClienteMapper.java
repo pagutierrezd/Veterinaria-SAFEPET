@@ -16,6 +16,7 @@ public interface ActualizacionClienteMapper {
            @Mapping(target = "telefono", source = "telefono"),
            @Mapping(target = "correo", source = "correo"),
            @Mapping(target = "direccion", source = "direccion"),
+           @Mapping(target = "nombre", source = "nombre"),
    })
    DetalleClienteDTO toDetalleClienteDto(Cliente cliente);
 

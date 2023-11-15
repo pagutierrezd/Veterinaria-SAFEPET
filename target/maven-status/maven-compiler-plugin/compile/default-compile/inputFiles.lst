@@ -1,57 +1,60 @@
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Usuario.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\DetalleMascotaDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\excepciones\ExcepcionPersonalizada.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\EstadoCita.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Cliente.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroClienteDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\ActualizacionVeterinarioMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Mascota.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\InformacionDetalladaClienteMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\Raza.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\MascotaService.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\VeterinarioController.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroAtencionMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\ClienteService.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroMascotaDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\AtencionRepo.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\ClienteController.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroAtencionDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\AtencionServiceImpl.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\VeterinarioServiceImpl.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroVeterinarioDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\VeterinarioRepo.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Administrador.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\ActualizarMascotaMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Atencion.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\MascotaController.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Cita.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroCitaDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\CitaController.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroVeterinarioMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\Especie.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\DetalleVeterinarioDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Producto.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\ActualizacionClienteMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\ClienteRepo.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\Sexo.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\TipoProducto.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\CitaServiceImpl.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Conversacion.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\InformacionDetalladaClienteDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\ClienteServiceImpl.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroCitaMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\ClinicaVeterinariaApplication.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\MascotaRepo.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\AtencionService.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\CitaService.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\DetalleClienteDTO.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroClienteMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroMascotaMapper.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\CitaRepo.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\AtencionController.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\Especialidad.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Veterinario.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\MascotaServiceImpl.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Mensaje.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\EstadoPerfil.java
-C:\Users\yosimar.naranjo\Documents\Paula\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\VeterinarioService.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\Especie.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Cliente.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\ClinicaVeterinariaApplication.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Conversacion.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Usuario.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Producto.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\MascotaServiceImpl.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\ActualizacionClienteMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\ClienteRepo.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\CitaService.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\DetalleMascotaDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Mascota.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\MascotaRepo.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\DetalleVeterinarioDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Administrador.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\InformacionDetalladaClienteMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\SessionService.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Veterinario.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Cita.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\ActualizacionVeterinarioMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\CitaRepo.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Mensaje.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\Raza.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\MascotaService.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\TipoProducto.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\AtencionController.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\Sexo.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\ActualizarMascotaMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\CitaServiceImpl.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroVeterinarioDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\ClienteService.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\entidades\Atencion.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroAtencionMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\CitaController.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\VeterinarioServiceImpl.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\InformacionDetalladaClienteDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroVeterinarioMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroMascotaDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\VeterinarioController.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroCitaDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\ClienteController.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroMascotaMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\ClienteServiceImpl.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\Especialidad.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroCitaMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\DetalleClienteDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\excepciones\ExcepcionPersonalizada.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\SessionServiceImpl.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\EstadoCita.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\mapper\RegistroClienteMapper.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\VeterinarioService.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroClienteDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\RegistroAtencionDTO.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\controlador\MascotaController.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\impl\AtencionServiceImpl.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\modelo\enums\EstadoPerfil.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\service\interfaz\AtencionService.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\dto\LoginDto.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\AtencionRepo.java
+E:\2023-2\Projects\Nueva carpeta\Veterinaria-SAFEPET\src\main\java\co\safepet\veterinaria\repositorio\VeterinarioRepo.java
