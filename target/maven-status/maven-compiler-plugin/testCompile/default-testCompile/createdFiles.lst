@@ -1,1 +1,3 @@
 co\safepet\veterinaria\ClinicaVeterinariaApplicationTests.class
+co\safepet\veterinaria\service\impl\VeterinarioServiceImplTest.class
+co\safepet\veterinaria\service\impl\ClienteServiceImplTest.class
